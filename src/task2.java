@@ -6,8 +6,8 @@ public class task2 {
         double perimtr;
         double space;
         perimtr=Math.sqrt(a*a+b*b)+a+b;
-        System.out.println("Периметр дорівнює: "+perimtr);
         space=0.5*a*b;
+        System.out.println("Периметр дорівнює: "+perimtr);
         System.out.println("Площа дорівнює: "+space);
     }
 }
