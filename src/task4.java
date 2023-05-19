@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class task4 {
     public static void main(String[] args) {
-        int programnum, player, numtry1, numtry2;
+        int programnum, player, numtry1;
         do {
             programnum = (int) (Math.random() * 3 + 1);
         } while (programnum == 0);
         numtry1 = 0;
-        numtry2 = 2;
 // і – змінна для обліку кількості спроб
 // j – змінна для підрахунку кількості спроб, що залишились
         while (numtry1 != 2) {
